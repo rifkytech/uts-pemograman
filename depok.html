@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ini Web Saya</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        background-color: #666;
+        padding: 35px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+
+      nav {
+        float: left;
+        width: 30%;
+        height: 480px;
+        background: #ccc;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 40;
+      }
+
+      article {
+        float: left;
+        padding: 50px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 480px;
+      }
+
+      section:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer {
+        background-color: #777  ;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      @media (max-width: 600px) {
+        nav, article {
+        width: 100%;
+        height: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h2>Kota di Indonesia</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="index2.html">Jakarta</a></li>
+      <li><a href="depok.html">Depok</a></li>
+      <li><a href="surabaya.html">Surabaya</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>Depok</h1>
+    <p>Depok Adalah sebuah kota yang berada di provinsi Jawa Barat, Indonesia. Kota ini terletak tepat di selatan Jakarta, yakni antara Jakarta dan Bogor.</p>
+</article>
+</section>
+  <footer><p>Footer</p>
+</body>
+</html>
